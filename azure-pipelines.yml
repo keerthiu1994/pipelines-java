@@ -1,4 +1,7 @@
 # Maven
+- task: SonarQubePublish@4
+  inputs:
+    pollingTimeoutSec: '300'
 - task: SonarQubePrepare@4
   inputs:
     SonarQube: 'sonarqube service connection'
