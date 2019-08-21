@@ -34,3 +34,5 @@ steps:
 - task: SonarQubePublish@4
   inputs:
     pollingTimeoutSec: '300'
+    
+- task: SonarQubeAnalyze@4
