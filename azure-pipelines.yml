@@ -31,8 +31,9 @@ steps:
       # sonar.exclusions=**/*.bin
       sonar.projectName=AnlyTrailProj
       sonar.projectKey=TrailProjectSonarKey
+    
+- task: SonarQubeAnalyze@4
+
 - task: SonarQubePublish@4
   inputs:
     pollingTimeoutSec: '300'
-    
-- task: SonarQubeAnalyze@4
