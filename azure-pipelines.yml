@@ -29,8 +29,8 @@ steps:
       # Additional properties that will be passed to the scanner, 
       # Put one key=value per line, example:
       # sonar.exclusions=**/*.bin
-      sonar.projectName=Sonar for Trail Project
-      sonar.projectKey=FromTrailProject
+      sonar.projectName=AnlyTrailProj
+      sonar.projectKey=TrailProjectSonarKey
 - task: SonarQubePublish@4
   inputs:
     pollingTimeoutSec: '300'
